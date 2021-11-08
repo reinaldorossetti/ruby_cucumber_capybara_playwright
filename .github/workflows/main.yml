@@ -21,7 +21,8 @@ jobs:
         with:
           node-version: '14'
       - name: Install operating system dependencies
-        run: npm install -g allure-commandline --save-dev
+        run: npx playwright install-deps |
+             npm install -g allure-commandline --save-dev
       - name: Set up Ruby
         # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
         # change this to (see https://github.com/ruby/setup-ruby#versioning):

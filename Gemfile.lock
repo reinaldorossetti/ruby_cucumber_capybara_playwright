@@ -43,6 +43,7 @@ GEM
     cucumber-tag_expressions (1.1.1)
     cucumber-wire (0.0.1)
     diff-lcs (1.4.4)
+    ffi (1.15.4)
     ffi (1.15.4-x86-mingw32)
     gherkin (5.0.0)
     json (2.6.1)
@@ -55,6 +56,8 @@ GEM
     multi_json (1.15.0)
     multi_test (0.1.2)
     nokogiri (1.12.5-x86-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     playwright-ruby-client (1.16.1)
       concurrent-ruby (>= 1.1.6)
@@ -94,6 +97,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   allure-cucumber
