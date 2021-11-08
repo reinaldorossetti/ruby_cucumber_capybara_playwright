@@ -6,13 +6,13 @@
       "name" : "Validar que o mapa do Google abriu em tela",
       "children" : [ {
         "name" : "Validar que o mapa do Google abriu em tela",
-        "uid" : "5da5fb4553ee3d9b",
+        "uid" : "c66fc9084580c6fd",
         "parentUid" : "beeb8714ce869eab63ba13012822e3c2",
         "status" : "passed",
         "time" : {
-          "start" : 1636399997170,
-          "stop" : 1636400020095,
-          "duration" : 22925
+          "start" : 1636400006992,
+          "stop" : 1636400028347,
+          "duration" : 21355
         },
         "flaky" : false,
         "newFailed" : false,
