@@ -2,20 +2,21 @@
   "ac40c5aea634e18ad8c5b41e375df249" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0e37a9197d4887e",
-      "reportUrl" : "https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/24//#testresult/f0e37a9197d4887e",
-      "status" : "passed",
+      "uid" : "2700d779024e8959",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/24//#testresult/2700d779024e8959",
+      "status" : "broken",
+      "statusDetails" : "Unable to find visible css \"#buttonFiltrar\"",
       "time" : {
-        "start" : 1636380059692,
-        "stop" : 1636380081340,
-        "duration" : 21648
+        "start" : 1636380058722,
+        "stop" : 1636380092223,
+        "duration" : 33501
       }
     } ]
   }

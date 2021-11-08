@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to find visible css \"#buttonFiltrar\"",
+      "children" : [ {
+        "name" : "Validar que o mapa do Google abriu em tela",
+        "uid" : "2700d779024e8959",
+        "parentUid" : "8ce94cbe730d529bb1cc74c5fa87a54b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636380058722,
+          "stop" : 1636380092223,
+          "duration" : 33501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ce94cbe730d529bb1cc74c5fa87a54b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
