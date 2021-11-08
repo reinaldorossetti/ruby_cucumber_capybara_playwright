@@ -38,22 +38,22 @@ jobs:
           export PLAYWRIGHT_CLI_VERSION=$(bundle exec ruby -e 'require "playwright"; puts Playwright::COMPATIBLE_PLAYWRIGHT_VERSION.strip')
           npm install playwright@${PLAYWRIGHT_CLI_VERSION} || npm install playwright@next
           ./node_modules/.bin/playwright install
-      - run: bundler install |
+      - run: npm install -g allure-commandline --save-dev |
+             bundler install |
              bundle exec cucumber
         env:
           BROWSER: ${{ matrix.browser }}
           PLAYWRIGHT_CLI_EXECUTABLE_PATH: ./node_modules/.bin/playwright
         timeout-minutes: 30
           
-      - name: Test marketplace action
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
+      - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
+        run: |
+          allure generate report/allure-results -o ${{ matrix.browser }}/allure-report/
+      - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
+        uses: actions/upload-artifact@v2
         with:
-          allure_results: report/allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
+          name: allure-report
+          path: allure-report
           
       - name: Deploy report to Github Pages
         if: always()
@@ -61,4 +61,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ${{ matrix.browser }}/allure-history
+          PUBLISH_DIR: ${{ matrix.browser }}/allure-report
