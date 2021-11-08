@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 3,
-  "reportUrl" : "https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/3/",
+  "buildOrder" : 4,
+  "reportUrl" : "https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/4/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
