@@ -25,8 +25,9 @@ jobs:
       - name: Install operating system dependencies
         run: |
              npm install playwright@next --save-dev |
-             ./node_modules/.bin/playwright install |
-             npm install -g allure-commandline --save-dev |
+             npm install -g allure-commandline --save-dev
+      - name: Install operating system dependencies
+        run: ./node_modules/.bin/playwright install |
 
       - name: Set up Ruby
         # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
