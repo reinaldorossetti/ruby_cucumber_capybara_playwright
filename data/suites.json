@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Pessoa Física funcionalidades",
+    "children" : [ {
+      "name" : "Validar que o mapa do Google abriu em tela",
+      "uid" : "b0074a931587a1d3",
+      "parentUid" : "08e7e0b6a02159f97a9e04ee619ddede",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636397137342,
+        "stop" : 1636397159863,
+        "duration" : 22521
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "08e7e0b6a02159f97a9e04ee619ddede"
+  } ],
+  "name" : "suites"
+}
