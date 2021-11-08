@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az127-195",
+    "children" : [ {
+      "name" : "50840",
+      "children" : [ {
+        "name" : "Validar que o mapa do Google abriu em tela",
+        "uid" : "9050b5df7d0e13e",
+        "parentUid" : "befcb8dc2abf26a711d9c80b378d1623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636402136875,
+          "stop" : 1636402165450,
+          "duration" : 28575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "befcb8dc2abf26a711d9c80b378d1623"
+    } ],
+    "uid" : "c7cce294b38d4b5174edebc815cf9dcf"
+  } ],
+  "name" : "timeline"
+}

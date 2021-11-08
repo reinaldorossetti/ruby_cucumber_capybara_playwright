@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Pessoa Física funcionalidades",
+    "children" : [ {
+      "name" : "Validar que o mapa do Google abriu em tela",
+      "children" : [ {
+        "name" : "Validar que o mapa do Google abriu em tela",
+        "uid" : "9050b5df7d0e13e",
+        "parentUid" : "beeb8714ce869eab63ba13012822e3c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636402136875,
+          "stop" : 1636402165450,
+          "duration" : 28575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "beeb8714ce869eab63ba13012822e3c2"
+    } ],
+    "uid" : "3367e6e862a2d86e604d0976b161ef4f"
+  } ],
+  "name" : "behaviors"
+}
