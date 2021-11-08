@@ -21,6 +21,11 @@ jobs:
         run:  sudo apt-get install xvfb |
               sudo apt-get install -y libdbus-glib-1-2 |
               export DISPLAY=:99.0
+      - name: Setup firefox
+        uses: browser-actions/setup-firefox@latest
+        with:
+          firefox-version: ${{ matrix.firefox }}
+      - run: firefox --version
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -28,8 +33,7 @@ jobs:
         run: |
              npx playwright install --with-deps |
              npm install playwright@next --save-dev |
-             npm install -g allure-commandline --save-dev |
-             npx playwright install && npx playwright run-server 8888
+             npm install -g allure-commandline --save-dev
       - name: Install operating system dependencies
         run: ./node_modules/.bin/playwright install
 
@@ -43,6 +47,7 @@ jobs:
           bundler-cache: true
       - name: Run tests
         run: |
+             ls
              bundler install
              bundle exec cucumber
           
