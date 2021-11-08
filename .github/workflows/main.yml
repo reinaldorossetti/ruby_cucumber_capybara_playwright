@@ -20,7 +20,9 @@ jobs:
       - name: Install operating system dependencies
         run:  sudo apt-get install xvfb |
               sudo apt-get install -y libdbus-glib-1-2 |
-              export DISPLAY=:99.0
+              sudo apt-get install xauth |
+              sudo apt-get install xorg-x11-xauth |
+              export DISPLAY=localhost:0.0
       - name: Setup firefox
         uses: browser-actions/setup-firefox@latest
         with:
