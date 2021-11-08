@@ -47,13 +47,13 @@ jobs:
         timeout-minutes: 30
           
       - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
-        run: mkdir ./report/${{ matrix.browser }} |
-          allure generate report/allure-results -o report/${{ matrix.browser }}
+        run: |
+          allure generate report/allure-results -o ${{ matrix.browser }}/allure-report/
       - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
         uses: actions/upload-artifact@v2
         with:
           name: allure-report
-          path: report/${{ matrix.browser }}
+          path: ${{ matrix.browser }}/allure-report/
           
       - name: Deploy report to Github Pages
         if: always()
@@ -61,4 +61,5 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: report/${{ matrix.browser }}
+          PUBLISH_DIR: ${{ matrix.browser }}
+          destination_dir: ${{ matrix.browser}}
