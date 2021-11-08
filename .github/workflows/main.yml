@@ -19,9 +19,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install operating system dependencies
         run:  sudo apt-get install xvfb |
-              sudo apt-get install -y libdbus-glib-1-2 |
-              sudo apt-get install xauth |
-              sudo apt-get install xorg-x11-xauth |
               export DISPLAY=localhost:0.0
       - name: Setup firefox
         uses: browser-actions/setup-firefox@latest
@@ -37,7 +34,7 @@ jobs:
           export PLAYWRIGHT_CLI_VERSION=$(bundle exec ruby -e 'require "playwright"; puts Playwright::COMPATIBLE_PLAYWRIGHT_VERSION.strip')
           npm install playwright@${PLAYWRIGHT_CLI_VERSION} || npm install playwright@next
           ./node_modules/.bin/playwright install
-      - run: bundler install
+      - run: bundler install |
              bundle exec cucumber
         env:
           BROWSER: firefox
