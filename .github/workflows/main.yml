@@ -17,15 +17,17 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
+      - name: Install operating system dependencies
+        run:  sudo apt-get install xvfb |
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
       - name: Install operating system dependencies
-        run: npx playwright install-deps |
+        run: |
              npm install playwright@next --save-dev |
-             sudo apt-get install xvfb |
              ./node_modules/.bin/playwright install |
-             npm install -g allure-commandline --save-dev
+             npm install -g allure-commandline --save-dev |
+
       - name: Set up Ruby
         # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
         # change this to (see https://github.com/ruby/setup-ruby#versioning):
