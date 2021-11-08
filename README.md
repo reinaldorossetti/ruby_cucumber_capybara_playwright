@@ -37,5 +37,6 @@ Rodar local com report do cucumber.
 bundle exec cucumber --format html --out=report/report.html
 ```
 Referências:  
+https://github.com/YusukeIwaki/capybara-playwright-driver  
 https://github.com/ruby-json-schema/json-schema/tree/master  
 https://github.com/jnunemaker/httparty  
