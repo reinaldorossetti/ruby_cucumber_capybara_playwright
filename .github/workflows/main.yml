@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install operating system dependencies
-        run:  sudo apt-get install xvfb |
+        run:  sudo apt-get install xvfb
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
