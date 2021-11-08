@@ -6,14 +6,13 @@ require 'capybara-playwright-driver'
 require 'rspec/retry'
 
 
-# Passar o browser por parametro.
-BROWSER = ENV['BROWSER']
 puts(BROWSER)
 
 # setup
 Capybara.register_driver(:playwright) do |app|
-  $page = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright',
-                                           browser_type: :firefox, headless: true, slowMo: 400, args: ['--window-size=1280,1024',
+  $page = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright', 
+                                           playwright_cli_executable_path: ENV['PLAYWRIGHT_CLI_EXECUTABLE_PATH'],
+                                           browser_type: (ENV['BROWSER'] || 'chromium').to_sym, headless: true, slowMo: 400, args: ['--window-size=1280,1024',
                                            '--no-sandbox'])
 end
 
