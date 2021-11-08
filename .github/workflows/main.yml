@@ -29,7 +29,7 @@ jobs:
              npx playwright install --with-deps |
              npm install playwright@next --save-dev |
              npm install -g allure-commandline --save-dev |
-             npx playwright-start firefox
+             npx playwright install && npx playwright run-server 8888
       - name: Install operating system dependencies
         run: ./node_modules/.bin/playwright install
 
