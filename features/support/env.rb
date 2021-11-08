@@ -6,7 +6,7 @@ require 'capybara-playwright-driver'
 require 'rspec/retry'
 
 
-puts(BROWSER)
+puts(ENV['BROWSER'])
 
 # setup
 Capybara.register_driver(:playwright) do |app|
