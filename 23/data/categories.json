@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Protocol error (Browser.enable): Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n============================================================",
+      "children" : [ {
+        "name" : "Validar que o mapa do Google abriu em tela",
+        "uid" : "502f7af0a67dce54",
+        "parentUid" : "7a9d1c418200ada1b4ac7fc31dc058d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636379994593,
+          "stop" : 1636379995314,
+          "duration" : 721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a9d1c418200ada1b4ac7fc31dc058d9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,25 +1,25 @@
 {
-  "uid" : "d5cc4701b0af97c2",
+  "uid" : "502f7af0a67dce54",
   "name" : "Validar que o mapa do Google abriu em tela",
   "fullName" : "Pessoa Física funcionalidades: Validar que o mapa do Google abriu em tela",
   "historyId" : "ac40c5aea634e18ad8c5b41e375df249",
   "time" : {
-    "start" : 1636379204517,
-    "stop" : 1636379205185,
-    "duration" : 668
+    "start" : 1636379994593,
+    "stop" : 1636379995314,
+    "duration" : 721
   },
   "description" : "Location - features/specs/sessaopravoce.feature:8",
   "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
   "status" : "broken",
-  "statusMessage" : "Error: Protocol error (Browser.enable): Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-zbPAqb -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=7211\n[pid=7211][err] Error: no DISPLAY environment variable specified\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-zbPAqb -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=7211\n[pid=7211][err] Error: no DISPLAY environment variable specified\n============================================================",
+  "statusMessage" : "Error: Protocol error (Browser.enable): Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n============================================================",
   "statusTrace" : "/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `raise'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `wait_until_resolved!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1471:in `value!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/connection.rb:68:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:34:in `block in send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:67:in `with_logging'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:33:in `send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:20:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel_owners/browser_type.rb:14:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright_api/browser_type.rb:88:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:72:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:90:in `start'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:40:in `create_playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:27:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:20:in `browser'\n/opt/hostedtoolcache/Ruby/2.7.3/x64/lib/ruby/2.7.0/forwardable.rb:229:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/session.rb:278:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `call'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/features/step_definitions/google_map_steps.rb:6:in `Before'",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "cucumber.rb:14",
     "time" : {
-      "start" : 1636379204535,
-      "stop" : 1636379204535,
+      "start" : 1636379994604,
+      "stop" : 1636379994604,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,8 +33,8 @@
   }, {
     "name" : "cucumber.rb:22",
     "time" : {
-      "start" : 1636379204535,
-      "stop" : 1636379204535,
+      "start" : 1636379994604,
+      "stop" : 1636379994604,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,9 +48,9 @@
   }, {
     "name" : "google_map_steps.rb:5",
     "time" : {
-      "start" : 1636379204535,
-      "stop" : 1636379205000,
-      "duration" : 465
+      "start" : 1636379994604,
+      "stop" : 1636379995131,
+      "duration" : 527
     },
     "status" : "failed",
     "steps" : [ ],
@@ -65,13 +65,13 @@
     "description" : "Location - features/specs/sessaopravoce.feature:8",
     "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
     "status" : "broken",
-    "statusMessage" : "Error: Protocol error (Browser.enable): Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-zbPAqb -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=7211\n[pid=7211][err] Error: no DISPLAY environment variable specified\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-zbPAqb -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=7211\n[pid=7211][err] Error: no DISPLAY environment variable specified\n============================================================",
+    "statusMessage" : "Error: Protocol error (Browser.enable): Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/firefox-1297/firefox/firefox -no-remote -wait-for-browser -foreground -profile /tmp/playwright_firefoxdev_profile-IXrrU6 -juggler-pipe --window-size=1280,1024 --no-sandbox -silent\n<launched> pid=6680\n[pid=6680][err] Error: no DISPLAY environment variable specified\n============================================================",
     "statusTrace" : "/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `raise'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `wait_until_resolved!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1471:in `value!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/connection.rb:68:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:34:in `block in send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:67:in `with_logging'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:33:in `send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:20:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel_owners/browser_type.rb:14:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright_api/browser_type.rb:88:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:72:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:90:in `start'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:40:in `create_playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:27:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:20:in `browser'\n/opt/hostedtoolcache/Ruby/2.7.3/x64/lib/ruby/2.7.0/forwardable.rb:229:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/session.rb:278:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `call'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/features/step_definitions/google_map_steps.rb:6:in `Before'",
     "steps" : [ {
       "name" : "Dado dado que esteja na tela desejada",
       "time" : {
-        "start" : 1636379205000,
-        "stop" : 1636379205000,
+        "start" : 1636379995131,
+        "stop" : 1636379995131,
         "duration" : 0
       },
       "status" : "skipped",
@@ -85,8 +85,8 @@
     }, {
       "name" : "Quando seleciono Onde usar meu cartão VR",
       "time" : {
-        "start" : 1636379205000,
-        "stop" : 1636379205000,
+        "start" : 1636379995131,
+        "stop" : 1636379995131,
         "duration" : 0
       },
       "status" : "skipped",
@@ -100,8 +100,8 @@
     }, {
       "name" : "Entao valido que o mapa do Google abriu em tela",
       "time" : {
-        "start" : 1636379205000,
-        "stop" : 1636379205000,
+        "start" : 1636379995131,
+        "stop" : 1636379995131,
         "duration" : 0
       },
       "status" : "skipped",
@@ -123,9 +123,9 @@
   "afterStages" : [ {
     "name" : "google_map_steps.rb:9",
     "time" : {
-      "start" : 1636379205000,
-      "stop" : 1636379205184,
-      "duration" : 184
+      "start" : 1636379995132,
+      "stop" : 1636379995314,
+      "duration" : 182
     },
     "status" : "failed",
     "steps" : [ ],
@@ -138,9 +138,9 @@
   }, {
     "name" : "cucumber.rb:10",
     "time" : {
-      "start" : 1636379205184,
-      "stop" : 1636379205185,
-      "duration" : 1
+      "start" : 1636379995314,
+      "stop" : 1636379995314,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -183,7 +183,7 @@
     "value" : "50840"
   }, {
     "name" : "host",
-    "value" : "fv-az122-231"
+    "value" : "fv-az39-928"
   }, {
     "name" : "language",
     "value" : "ruby"
@@ -205,6 +205,6 @@
     } ],
     "tags" : [ "TC-01", "FPF" ]
   },
-  "source" : "d5cc4701b0af97c2.json",
+  "source" : "502f7af0a67dce54.json",
   "parameterValues" : [ ]
 }
