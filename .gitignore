@@ -9,7 +9,11 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-
+/report/
+.idea/
+*.xml
+.idea/workspace.xml
+/node_modules/
 # Used by dotenv library to load environment variables.
 # .env
 

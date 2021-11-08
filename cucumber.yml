@@ -1,0 +1,3 @@
+## YAML Templatesss
+---
+default: --format AllureCucumber::CucumberFormatter --out report/allure-results
