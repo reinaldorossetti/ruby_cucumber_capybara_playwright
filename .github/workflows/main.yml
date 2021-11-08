@@ -20,8 +20,7 @@ jobs:
       - name: Install operating system dependencies
         run:  sudo apt-get install xvfb |
               sudo apt-get install -y libdbus-glib-1-2 |
-              export DISPLAY=:99.0 |
-              sh -e /etc/init.d/xvfb start
+              export DISPLAY=:99.0
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -29,7 +28,8 @@ jobs:
         run: |
              npx playwright install --with-deps |
              npm install playwright@next --save-dev |
-             npm install -g allure-commandline --save-dev
+             npm install -g allure-commandline --save-dev |
+             npx playwright-start firefox
       - name: Install operating system dependencies
         run: ./node_modules/.bin/playwright install
 
