@@ -9,6 +9,7 @@ on:
 
 jobs:
   test:
+    name: Playwright@${{ matrix.browser}} ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
@@ -50,11 +51,10 @@ jobs:
         run: |
           allure generate report/allure-results -o ./allure-report/${{ matrix.browser }}
           
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-report
+      - name: Deploy Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages  # default: gh-pages
+          publish_dir: allure-report/${{ matrix.browser }}
           destination_dir: ${{ matrix.browser}}
