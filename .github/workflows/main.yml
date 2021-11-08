@@ -61,4 +61,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ${{ matrix.browser }}
+          PUBLISH_DIR: report/${{ matrix.browser }}
