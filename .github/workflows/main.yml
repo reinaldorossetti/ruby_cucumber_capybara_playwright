@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: allure-report
-          path: allure-report
+          path: ${{ matrix.browser }}/allure-report/
           
       - name: Deploy report to Github Pages
         if: always()
@@ -61,4 +61,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ${{ matrix.browser }}/allure-report
+          PUBLISH_DIR: ${{ matrix.browser }}
