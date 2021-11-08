@@ -13,7 +13,7 @@ puts(BROWSER)
 # setup
 Capybara.register_driver(:playwright) do |app|
   $page = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright',
-                                           browser_type: :firefox, headless: false, slowMo: 400, , args: ['--window-size=1280,1024',
+                                           browser_type: :firefox, headless: false, slowMo: 400, args: ['--window-size=1280,1024',
                                            '--no-sandbox'])
 end
 
