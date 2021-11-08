@@ -25,6 +25,10 @@ jobs:
         with:
           firefox-version: ${{ matrix.firefox }}
       - run: firefox --version
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.3
+          bundler-cache: true
       - uses: actions/setup-node@v1
         with:
           node-version: 14
