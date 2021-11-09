@@ -6,13 +6,11 @@ require 'capybara-playwright-driver'
 require 'rspec/retry'
 
 
-puts(ENV['BROWSER'])
-
 # setup
 Capybara.register_driver(:playwright) do |app|
   $page = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright', 
-                                           browser_type: (ENV['BROWSER'] || 'chromium').to_sym, headless: true, slowMo: 400, args: ['--window-size=1280,1024',
-                                           '--no-sandbox'])
+                                                browser_type: (ENV['BROWSER']).to_sym, headless: to_boolean(ENV['HEADLESS']),
+                                                slowMo: 400, args: %w[--window-size=1280,1024 --no-sandbox])
 end
 
 Capybara.default_max_wait_time = 15
@@ -21,5 +19,8 @@ Capybara.save_path = 'tmp/capybara'
 Capybara.javascript_driver = :playwright #:selenium
 Capybara.app_host = 'https://www.vr.com.br/'
 
+puts "Browser: #{Capybara.inspect}"
 
-
+def to_boolean(str)
+  str.downcase == 'true'
+end

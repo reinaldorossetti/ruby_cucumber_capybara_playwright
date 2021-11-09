@@ -2,6 +2,7 @@ class PessoaFisica
 
   include PageBase
 
+  # uso variaveis de classe para armazenar o valor do meu elemento, sem precisar do site-prism.
   @@pra_voce_link = '.vr-quick-navigation a'
   @@rede_credenciada_btn = '.vr-hero a[href="#rede-credenciada"]'
   @@filtrar_cartao_btn = '#buttonFiltrar'

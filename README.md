@@ -15,6 +15,7 @@ cd ruby_cucumber_httparty
 **3 - Passo instale as dependências**
 ```
 bundle install
+npx playwright install
 ```
 ** Precisa instalar a gem, comando "gem install bundle", sem aspas duplas.
 
@@ -34,9 +35,16 @@ bundle lock --add-platform x86_64-linux
 ```
 Rodar local com report do cucumber.
 ```
-bundle exec cucumber --format html --out=report/report.html
+bundle exec cucumber BROWSER=firefox HEADLESS=false --format html --out=report/report.html
+bundle exec cucumber BROWSER=chromium --format html --out=report/report.html
+bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
 ```
+
+Em caso de Erro no Windows de C Runtime:
+https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
 Referências:  
+https://playwright-ruby-client.vercel.app/docs/article/getting_started  
 https://github.com/YusukeIwaki/capybara-playwright-driver  
 https://github.com/ruby-json-schema/json-schema/tree/master  
 https://github.com/jnunemaker/httparty  
