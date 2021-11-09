@@ -1,4 +1,4 @@
-# Projeto usando o Httparty e Cucumber.
+# Projeto usando Capybara e o driver do Playwright
 
 A configuração (importe das gems) está dentro do **suport/env.rb** e a instância do Httparty está dentro do módulo Http, com isso eu elimino muito código desnecessário.
 
@@ -14,8 +14,8 @@ cd ruby_cucumber_httparty
 ```
 **3 - Passo instale as dependências**
 ```
-bundle install
 npx playwright install
+bundle install
 ```
 ** Precisa instalar a gem, comando "gem install bundle", sem aspas duplas.
 
