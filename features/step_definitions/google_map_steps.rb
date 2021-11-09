@@ -3,14 +3,6 @@
 
 Before do
   visit '/'
-  Capybara.current_session.driver.on_save_screenrecord do |video_path|
-    Allure.add_attachment(
-      name: "screenrecord - #{example.description}",
-      source: File.read(video_path),
-      type: Allure::ContentType::WEBM,
-      test_case: true,
-      )
-  end
 end
 
 After do
