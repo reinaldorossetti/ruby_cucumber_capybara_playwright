@@ -41,7 +41,7 @@ jobs:
           ./node_modules/.bin/playwright install
       - run: npm install -g allure-commandline --save-dev |
              bundler install |
-             bundle exec cucumber
+             bundle exec cucumber BROWSER=${{ matrix.browser }} HEADLESS=false
         env:
           BROWSER: ${{ matrix.browser }}
           PLAYWRIGHT_CLI_EXECUTABLE_PATH: ./node_modules/.bin/playwright
