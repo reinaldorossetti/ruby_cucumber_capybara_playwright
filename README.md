@@ -1,6 +1,6 @@
 # Projeto usando Capybara e o driver do Playwright
 
-A biblioteca abaixo é usada como driver para o capybara, o capybara foi desenhado para funcionar com vários drivers, o selenium nem sequer é o driver padrão do mesmo, mas sim o rack_test, podemos dizer que o driver faz chamadas diretas para a biblioteca em javascript, por incrivel que pareça é comum fazer isso no ruby, ruby on rails faz isso a muito tempo. Por ser muito rápido o playwright não vi nenhum problema de performance nisso, pelo contrário no site testado foi preciso colocar um delay de 500ms entre os comandos, vai rápido demais.
+A biblioteca abaixo é usada como driver para o capybara, o capybara foi desenhado para funcionar com vários drivers, o selenium nem sequer é o driver padrão do mesmo, mas sim o rack_test, podemos dizer que o driver faz chamadas diretas para a biblioteca em javascript, por incrivel que pareça é comum fazer isso no ruby, ruby on rails faz isso a muito tempo. Por ser muito rápido o playwright não vi nenhum problema de performance nisso, pelo contrário no site testado foi preciso colocar um delay de 500ms entre os comandos, vai ele vai rápido demais e não leu o componente na DOM corretamente gerando falso negativo.
 
 - *default_driver* (Symbol = `:rack_test`) - The name of the driver to use by default. -
 
