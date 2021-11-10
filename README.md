@@ -23,28 +23,26 @@ cd ruby_cucumber_httparty
 npx playwright install
 bundle install
 ```
-** Precisa instalar a gem, comando "gem install bundle", sem aspas duplas.
+** Precisa instalar a gem do bundle antes de dar o bundle install, comando "gem install bundle", sem aspas duplas.
 
 **4- Passo rode o nosso projeto, abrar o terminal em tests e envie o comando abaixo:**
+```
+bundle exec cucumber BROWSER=firefox HEADLESS=false --format html --out=report/report.html
+bundle exec cucumber BROWSER=chromium HEADLESS=true --format html --out=report/report.html
+bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
+```
+** Para o browser ficar oculto passe a variável no cucumber HEADLESS=true
 
-```
-bundle exec cucumber
-bundle exec cucumber features/specs/verbo_get.feature
-```
 Para visualizar o relatório gerado do allure report, segue o link abaixo:
 ```
-https://reinaldorossetti.github.io/ruby_cucumber_httparty/
+https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/chromium/
+https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/firefox/
 ```
 Para adiciona compatibilidade com linux x86 e x64
 ```
 bundle lock --add-platform x86_64-linux
 ```
-Rodar local com report do cucumber.
-```
-bundle exec cucumber BROWSER=firefox HEADLESS=false --format html --out=report/report.html
-bundle exec cucumber BROWSER=chromium --format html --out=report/report.html
-bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
-```
+
 
 Em caso de Erro no Windows Instale o C Runtime:
 https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
