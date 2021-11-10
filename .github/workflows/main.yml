@@ -44,6 +44,7 @@ jobs:
              bundle exec cucumber
         env:
           BROWSER: ${{ matrix.browser }}
+          HEADLESS: true
           PLAYWRIGHT_CLI_EXECUTABLE_PATH: ./node_modules/.bin/playwright
         timeout-minutes: 30
           
