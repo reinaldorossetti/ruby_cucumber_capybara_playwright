@@ -8,6 +8,16 @@ A biblioteca abaixo é usada como driver para o capybara, o capybara foi desenha
 gem 'playwright-ruby-client'
 ```
 
+Essa é a principal configuração, adicionando o driver ao Capybara.register_drive. O comando "npx playwright install" simplesmente instala o lib do playwright no projeto, aponto ela em playwright_cli_executable_path.
+```
+# setup
+Capybara.register_driver(:playwright) do |app|
+  driver = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright',
+                                                browser_type: browser_name.to_sym, headless: headless_browser,
+                                                slowMo: 500, args: %w[--window-size=1280,1024 --no-sandbox])
+end
+```
+
 # PASSO A PASSO
 
 **1 - Faça um clone no projeto no seu PC.**
