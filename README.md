@@ -46,7 +46,7 @@ bundle exec cucumber BROWSER=chromium --format html --out=report/report.html
 bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
 ```
 
-Em caso de Erro no Windows de C Runtime:
+Em caso de Erro no Windows Instale o C Runtime:
 https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 Referências:  
