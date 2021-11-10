@@ -1,6 +1,12 @@
 # Projeto usando Capybara e o driver do Playwright
 
-A configuração (importe das gems) está dentro do **suport/env.rb** e a instância do Httparty está dentro do módulo Http, com isso eu elimino muito código desnecessário.
+A biblioteca abaixo é usada como driver para o capybara, o capybara foi desenhado para funcionar com vários drivers, o selenium nem sequer é o driver padrão do mesmo, mas sim o rack_test, podemos dizer que o driver faz chamadas diretas para a biblioteca em javascript, por incrivel que pareça é comum fazer isso no ruby, ruby on rails faz isso a muito tempo. Por ser muito rápido o playwright não vi nenhum problema de performance nisso, pelo contrário no site testado foi preciso colocar um delay de 500ms entre os comandos, vai rápido demais.
+
+- *default_driver* (Symbol = `:rack_test`) - The name of the driver to use by default. -
+
+```
+gem 'playwright-ruby-client'
+```
 
 # PASSO A PASSO
 
