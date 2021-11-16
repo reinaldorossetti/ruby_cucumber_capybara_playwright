@@ -19,7 +19,7 @@ end
 
 # setup
 Capybara.register_driver(:playwright) do |app|
-  driver = Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright',
+  Capybara::Playwright::Driver.new(app, playwright_cli_executable_path: './node_modules/.bin/playwright',
                                                 browser_type: browser_name.to_sym, headless: headless_browser,
                                                 slowMo: 500, args: %w[--window-size=1280,1024 --no-sandbox])
 end
@@ -32,4 +32,3 @@ Capybara.app_host = 'https://www.vr.com.br/'
 
 puts "Browser=#{browser_name}"
 puts "Headless=#{headless_browser}"
-puts "Session=#{driver.config}"
