@@ -11,7 +11,6 @@ jobs:
   test:
     name: Playwright@${{ matrix.browser}} ${{ matrix.os }}
     strategy:
-      fail-fast: false
       matrix:
         os: [ubuntu-latest]
         browser: [chromium, webkit, firefox]
@@ -39,6 +38,7 @@ jobs:
           export PLAYWRIGHT_CLI_VERSION=$(bundle exec ruby -e 'require "playwright"; puts Playwright::COMPATIBLE_PLAYWRIGHT_VERSION.strip')
           npm install playwright@${PLAYWRIGHT_CLI_VERSION} || npm install playwright@next
           ./node_modules/.bin/playwright install
+      - name: Run Tests
         if: always()
         continue-on-error: true
       - run: npm install -g allure-commandline --save-dev |
