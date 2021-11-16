@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4260\n[pid=4260][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4260\n[pid=4260][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+      "children" : [ {
+        "name" : "Validar que o mapa do Google abriu em tela",
+        "uid" : "15fef00b80cee58d",
+        "parentUid" : "78c2799ed7b52d76b1d1fcb909b8ed47",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637100981785,
+          "stop" : 1637100982620,
+          "duration" : 835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78c2799ed7b52d76b1d1fcb909b8ed47"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

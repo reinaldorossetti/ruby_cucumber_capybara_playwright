@@ -1,0 +1,22 @@
+{
+  "11856d1821454979a45f5e1eabffa771" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15fef00b80cee58d",
+      "status" : "broken",
+      "statusDetails" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4260\n[pid=4260][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4260\n[pid=4260][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+      "time" : {
+        "start" : 1637100981785,
+        "stop" : 1637100982620,
+        "duration" : 835
+      }
+    } ]
+  }
+}
