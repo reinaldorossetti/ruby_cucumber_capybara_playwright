@@ -41,7 +41,7 @@ jobs:
       - name: Run Tests
         if: always()
         continue-on-error: true
-      - run: npm install -g allure-commandline --save-dev |
+        run: npm install -g allure-commandline --save-dev |
              bundler install |
              bundle exec cucumber
         env:
