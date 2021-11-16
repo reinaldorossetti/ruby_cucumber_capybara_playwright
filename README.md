@@ -45,8 +45,8 @@ bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
 
 Para visualizar o relatório gerado do allure report, segue o link abaixo:
 ```
-https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/chromium/
-https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/firefox/
+<a href="https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/chromium/"></a>
+<a href="https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/firefox/"></a>
 ```
 Para adiciona compatibilidade com linux x86 e x64
 ```
