@@ -1,12 +1,12 @@
 {
-  "uid" : "4e0d3e92d4a7e1e6",
+  "uid" : "9c433d666d9fa67a",
   "name" : "Validar que o mapa do Google abriu em tela",
-  "fullName" : "Pessoa Física funcionalidades: Validar que o mapa do Google abriu em tela",
-  "historyId" : "ac40c5aea634e18ad8c5b41e375df249",
+  "fullName" : "Validar que o mapa do Google abriu em tela",
+  "historyId" : "11856d1821454979a45f5e1eabffa771",
   "time" : {
-    "start" : 1636476402293,
-    "stop" : 1636476423891,
-    "duration" : 21598
+    "start" : 1637099191293,
+    "stop" : 1637099214600,
+    "duration" : 23307
   },
   "description" : "Location - features/specs/sessaopravoce.feature:8",
   "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
@@ -14,10 +14,10 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "cucumber.rb:14",
+    "name" : "Before hook (cucumber.rb:14)",
     "time" : {
-      "start" : 1636476402303,
-      "stop" : 1636476402303,
+      "start" : 1637099191304,
+      "stop" : 1637099191304,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,10 +29,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "cucumber.rb:22",
+    "name" : "Before hook (cucumber.rb:22)",
     "time" : {
-      "start" : 1636476402303,
-      "stop" : 1636476402303,
+      "start" : 1637099191304,
+      "stop" : 1637099191304,
       "duration" : 0
     },
     "status" : "passed",
@@ -44,11 +44,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "google_map_steps.rb:4",
+    "name" : "Before hook (google_map_steps.rb:4)",
     "time" : {
-      "start" : 1636476402303,
-      "stop" : 1636476410698,
-      "duration" : 8395
+      "start" : 1637099191304,
+      "stop" : 1637099199651,
+      "duration" : 8347
     },
     "status" : "passed",
     "steps" : [ ],
@@ -66,9 +66,9 @@
     "steps" : [ {
       "name" : "Dado dado que esteja na tela desejada",
       "time" : {
-        "start" : 1636476410698,
-        "stop" : 1636476415749,
-        "duration" : 5051
+        "start" : 1637099199651,
+        "stop" : 1637099205563,
+        "duration" : 5912
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Quando seleciono Onde usar meu cartão VR",
       "time" : {
-        "start" : 1636476415749,
-        "stop" : 1636476423736,
-        "duration" : 7987
+        "start" : 1637099205563,
+        "stop" : 1637099214437,
+        "duration" : 8874
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,9 +96,9 @@
     }, {
       "name" : "Entao valido que o mapa do Google abriu em tela",
       "time" : {
-        "start" : 1636476423736,
-        "stop" : 1636476423736,
-        "duration" : 0
+        "start" : 1637099214437,
+        "stop" : 1637099214438,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,11 +117,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "google_map_steps.rb:8",
+    "name" : "After hook (google_map_steps.rb:8)",
     "time" : {
-      "start" : 1636476423736,
-      "stop" : 1636476423854,
-      "duration" : 118
+      "start" : 1637099214438,
+      "stop" : 1637099214569,
+      "duration" : 131
     },
     "status" : "passed",
     "steps" : [ ],
@@ -132,11 +132,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "cucumber.rb:10",
+    "name" : "After hook (cucumber.rb:10)",
     "time" : {
-      "start" : 1636476423854,
-      "stop" : 1636476423891,
-      "duration" : 37
+      "start" : 1637099214569,
+      "stop" : 1637099214600,
+      "duration" : 31
     },
     "status" : "passed",
     "steps" : [ ],
@@ -151,20 +151,23 @@
     "name" : "framework",
     "value" : "cucumber"
   }, {
-    "name" : "feature",
-    "value" : "Pessoa Física funcionalidades"
-  }, {
     "name" : "package",
-    "value" : "Pessoa Física funcionalidades"
+    "value" : "specs"
+  }, {
+    "name" : "testClass",
+    "value" : "sessaopravoce"
   }, {
     "name" : "suite",
     "value" : "Pessoa Física funcionalidades"
   }, {
-    "name" : "story",
-    "value" : "Validar que o mapa do Google abriu em tela"
+    "name" : "severity",
+    "value" : "normal"
   }, {
-    "name" : "testClass",
-    "value" : "Validar que o mapa do Google abriu em tela"
+    "name" : "epic",
+    "value" : "specs"
+  }, {
+    "name" : "feature",
+    "value" : "Pessoa Física funcionalidades"
   }, {
     "name" : "tag",
     "value" : "FPF"
@@ -172,14 +175,11 @@
     "name" : "tag",
     "value" : "TC-01"
   }, {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "thread",
-    "value" : "50840"
+    "value" : "52720"
   }, {
     "name" : "host",
-    "value" : "fv-az42-624"
+    "value" : "fv-az77-509"
   }, {
     "name" : "language",
     "value" : "ruby"
@@ -197,6 +197,6 @@
     "categories" : [ ],
     "tags" : [ "TC-01", "FPF" ]
   },
-  "source" : "4e0d3e92d4a7e1e6.json",
+  "source" : "9c433d666d9fa67a.json",
   "parameterValues" : [ ]
 }
