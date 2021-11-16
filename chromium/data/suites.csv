@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Nov 16 22:00:50 UTC 2021","Tue Nov 16 22:01:13 UTC 2021","22808","","Pessoa Física funcionalidades","","sessaopravoce","","Validar que o mapa do Google abriu em tela","Location - features/specs/sessaopravoce.feature:8"
+"passed","Tue Nov 16 22:02:01 UTC 2021","Tue Nov 16 22:02:21 UTC 2021","20317","","Pessoa Física funcionalidades","","sessaopravoce","","Validar que o mapa do Google abriu em tela","Location - features/specs/sessaopravoce.feature:8"
