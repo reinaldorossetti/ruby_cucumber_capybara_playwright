@@ -39,6 +39,8 @@ jobs:
           export PLAYWRIGHT_CLI_VERSION=$(bundle exec ruby -e 'require "playwright"; puts Playwright::COMPATIBLE_PLAYWRIGHT_VERSION.strip')
           npm install playwright@${PLAYWRIGHT_CLI_VERSION} || npm install playwright@next
           ./node_modules/.bin/playwright install
+        if: always()
+        continue-on-error: true
       - run: npm install -g allure-commandline --save-dev |
              bundler install |
              bundle exec cucumber
