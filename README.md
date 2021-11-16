@@ -43,7 +43,7 @@ bundle exec cucumber BROWSER=webkit --format html --out=report/report.html
 ```
 ** Para o browser ficar oculto passe a variável no cucumber HEADLESS=true
 
-Para visualizar o relatório gerado do allure report, segue o link abaixo:
+Para visualizar o relatório gerado do allure report, segue o link abaixo:  
 <a href='https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/chromium/'>chromium report</a><br>
 <a href='https://reinaldorossetti.github.io/ruby_cucumber_capybara_playwright/firefox/'>firefox report</a>  
 
