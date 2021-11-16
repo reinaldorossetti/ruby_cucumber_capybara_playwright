@@ -1,12 +1,12 @@
 {
-  "uid" : "9b41eda4e15991d4",
+  "uid" : "c0e3559357a56d83",
   "name" : "Validar que o mapa do Google abriu em tela",
   "fullName" : "Validar que o mapa do Google abriu em tela",
   "historyId" : "11856d1821454979a45f5e1eabffa771",
   "time" : {
-    "start" : 1637100028057,
-    "stop" : 1637100052579,
-    "duration" : 24522
+    "start" : 1637100104570,
+    "stop" : 1637100127095,
+    "duration" : 22525
   },
   "description" : "Location - features/specs/sessaopravoce.feature:8",
   "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "Before hook (cucumber.rb:14)",
     "time" : {
-      "start" : 1637100028072,
-      "stop" : 1637100028072,
+      "start" : 1637100104581,
+      "stop" : 1637100104581,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,8 +31,8 @@
   }, {
     "name" : "Before hook (cucumber.rb:22)",
     "time" : {
-      "start" : 1637100028072,
-      "stop" : 1637100028072,
+      "start" : 1637100104581,
+      "stop" : 1637100104581,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,9 +46,9 @@
   }, {
     "name" : "Before hook (google_map_steps.rb:4)",
     "time" : {
-      "start" : 1637100028072,
-      "stop" : 1637100036818,
-      "duration" : 8746
+      "start" : 1637100104581,
+      "stop" : 1637100112209,
+      "duration" : 7628
     },
     "status" : "passed",
     "steps" : [ ],
@@ -66,9 +66,9 @@
     "steps" : [ {
       "name" : "Dado dado que esteja na tela desejada",
       "time" : {
-        "start" : 1637100036818,
-        "stop" : 1637100042974,
-        "duration" : 6156
+        "start" : 1637100112209,
+        "stop" : 1637100118028,
+        "duration" : 5819
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Quando seleciono Onde usar meu cartão VR",
       "time" : {
-        "start" : 1637100042974,
-        "stop" : 1637100052376,
-        "duration" : 9402
+        "start" : 1637100118028,
+        "stop" : 1637100126949,
+        "duration" : 8921
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,8 +96,8 @@
     }, {
       "name" : "Entao valido que o mapa do Google abriu em tela",
       "time" : {
-        "start" : 1637100052376,
-        "stop" : 1637100052377,
+        "start" : 1637100126949,
+        "stop" : 1637100126950,
         "duration" : 1
       },
       "status" : "passed",
@@ -119,9 +119,9 @@
   "afterStages" : [ {
     "name" : "After hook (google_map_steps.rb:8)",
     "time" : {
-      "start" : 1637100052377,
-      "stop" : 1637100052522,
-      "duration" : 145
+      "start" : 1637100126950,
+      "stop" : 1637100127065,
+      "duration" : 115
     },
     "status" : "passed",
     "steps" : [ ],
@@ -134,9 +134,9 @@
   }, {
     "name" : "After hook (cucumber.rb:10)",
     "time" : {
-      "start" : 1637100052522,
-      "stop" : 1637100052579,
-      "duration" : 57
+      "start" : 1637100127065,
+      "stop" : 1637100127095,
+      "duration" : 30
     },
     "status" : "passed",
     "steps" : [ ],
@@ -179,7 +179,7 @@
     "value" : "52720"
   }, {
     "name" : "host",
-    "value" : "fv-az42-616"
+    "value" : "fv-az83-393"
   }, {
     "name" : "language",
     "value" : "ruby"
@@ -197,6 +197,6 @@
     "categories" : [ ],
     "tags" : [ "TC-01", "FPF" ]
   },
-  "source" : "9b41eda4e15991d4.json",
+  "source" : "c0e3559357a56d83.json",
   "parameterValues" : [ ]
 }
