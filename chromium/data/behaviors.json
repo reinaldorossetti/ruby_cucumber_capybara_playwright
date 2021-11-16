@@ -2,25 +2,25 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Pessoa Física funcionalidades",
+    "name" : "specs",
     "children" : [ {
-      "name" : "Validar que o mapa do Google abriu em tela",
+      "name" : "Pessoa Física funcionalidades",
       "children" : [ {
         "name" : "Validar que o mapa do Google abriu em tela",
-        "uid" : "7a6faff8e2c99e7c",
-        "parentUid" : "beeb8714ce869eab63ba13012822e3c2",
+        "uid" : "cb6bbe39ece19cf0",
+        "parentUid" : "1455feb21ba906f388345046af0dd533",
         "status" : "passed",
         "time" : {
-          "start" : 1636476402321,
-          "stop" : 1636476424937,
-          "duration" : 22616
+          "start" : 1637099183430,
+          "stop" : 1637099204972,
+          "duration" : 21542
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "beeb8714ce869eab63ba13012822e3c2"
+      "uid" : "1455feb21ba906f388345046af0dd533"
     } ],
-    "uid" : "3367e6e862a2d86e604d0976b161ef4f"
+    "uid" : "18ce8eb42a6160e132c79ba43728f4cb"
   } ]
 }
