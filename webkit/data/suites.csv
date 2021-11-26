@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Nov 19 05:09:42 UTC 2021","Fri Nov 19 05:09:43 UTC 2021","851","","Pessoa Física funcionalidades","","sessaopravoce","","Validar que o mapa do Google abriu em tela","Location - features/specs/sessaopravoce.feature:8"
+"broken","Fri Nov 26 05:09:44 UTC 2021","Fri Nov 26 05:09:45 UTC 2021","882","","Pessoa Física funcionalidades","","sessaopravoce","","Validar que o mapa do Google abriu em tela","Location - features/specs/sessaopravoce.feature:8"

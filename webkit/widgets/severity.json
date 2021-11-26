@@ -1,10 +1,10 @@
 [ {
-  "uid" : "f81c1ab2b2be70b5",
+  "uid" : "9eb55978a66b7807",
   "name" : "Validar que o mapa do Google abriu em tela",
   "time" : {
-    "start" : 1637298582734,
-    "stop" : 1637298583585,
-    "duration" : 851
+    "start" : 1637903384529,
+    "stop" : 1637903385411,
+    "duration" : 882
   },
   "status" : "broken",
   "severity" : "normal"
