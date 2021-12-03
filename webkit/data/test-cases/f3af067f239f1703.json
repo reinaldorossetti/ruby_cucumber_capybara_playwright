@@ -1,25 +1,25 @@
 {
-  "uid" : "9eb55978a66b7807",
+  "uid" : "f3af067f239f1703",
   "name" : "Validar que o mapa do Google abriu em tela",
   "fullName" : "Validar que o mapa do Google abriu em tela",
   "historyId" : "11856d1821454979a45f5e1eabffa771",
   "time" : {
-    "start" : 1637903384529,
-    "stop" : 1637903385411,
-    "duration" : 882
+    "start" : 1638508213735,
+    "stop" : 1638508214606,
+    "duration" : 871
   },
   "description" : "Location - features/specs/sessaopravoce.feature:8",
   "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
   "status" : "broken",
-  "statusMessage" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4444\n[pid=4444][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4444\n[pid=4444][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+  "statusMessage" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4424\n[pid=4424][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4424\n[pid=4424][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
   "statusTrace" : "/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `raise'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `wait_until_resolved!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1471:in `value!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/connection.rb:68:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:34:in `block in send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:67:in `with_logging'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:33:in `send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:20:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel_owners/browser_type.rb:14:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright_api/browser_type.rb:88:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:72:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:90:in `start'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:40:in `create_playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:27:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:20:in `browser'\n/opt/hostedtoolcache/Ruby/2.7.3/x64/lib/ruby/2.7.0/forwardable.rb:229:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/session.rb:278:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `call'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/features/step_definitions/google_map_steps.rb:5:in `Before'",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "Before hook (cucumber.rb:14)",
     "time" : {
-      "start" : 1637903384538,
-      "stop" : 1637903384538,
+      "start" : 1638508213744,
+      "stop" : 1638508213744,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,8 +33,8 @@
   }, {
     "name" : "Before hook (cucumber.rb:22)",
     "time" : {
-      "start" : 1637903384538,
-      "stop" : 1637903384538,
+      "start" : 1638508213744,
+      "stop" : 1638508213744,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,9 +48,9 @@
   }, {
     "name" : "Before hook (google_map_steps.rb:4)",
     "time" : {
-      "start" : 1637903384538,
-      "stop" : 1637903385162,
-      "duration" : 624
+      "start" : 1638508213744,
+      "stop" : 1638508214382,
+      "duration" : 638
     },
     "status" : "failed",
     "steps" : [ ],
@@ -65,13 +65,13 @@
     "description" : "Location - features/specs/sessaopravoce.feature:8",
     "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
     "status" : "broken",
-    "statusMessage" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4444\n[pid=4444][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4444\n[pid=4444][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+    "statusMessage" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4424\n[pid=4424][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4424\n[pid=4424][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
     "statusTrace" : "/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `raise'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1257:in `wait_until_resolved!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby/concurrent/promises.rb:1471:in `value!'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/connection.rb:68:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:34:in `block in send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:67:in `with_logging'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:33:in `send_message_to_server_result'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel.rb:20:in `send_message_to_server'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright/channel_owners/browser_type.rb:14:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/playwright-ruby-client-1.16.1/lib/playwright_api/browser_type.rb:88:in `launch'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:72:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/browser_runner.rb:90:in `start'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:40:in `create_playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:27:in `playwright_browser'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-playwright-driver-0.1.6/lib/capybara/playwright/driver.rb:20:in `browser'\n/opt/hostedtoolcache/Ruby/2.7.3/x64/lib/ruby/2.7.0/forwardable.rb:229:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/session.rb:278:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `call'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/vendor/bundle/ruby/2.7.0/gems/capybara-3.35.3/lib/capybara/dsl.rb:53:in `visit'\n/home/runner/work/ruby_cucumber_capybara_playwright/ruby_cucumber_capybara_playwright/features/step_definitions/google_map_steps.rb:5:in `Before'",
     "steps" : [ {
       "name" : "Dado dado que esteja na tela desejada",
       "time" : {
-        "start" : 1637903385163,
-        "stop" : 1637903385163,
+        "start" : 1638508214382,
+        "stop" : 1638508214382,
         "duration" : 0
       },
       "status" : "skipped",
@@ -85,8 +85,8 @@
     }, {
       "name" : "Quando seleciono Onde usar meu cartão VR",
       "time" : {
-        "start" : 1637903385163,
-        "stop" : 1637903385163,
+        "start" : 1638508214382,
+        "stop" : 1638508214382,
         "duration" : 0
       },
       "status" : "skipped",
@@ -100,8 +100,8 @@
     }, {
       "name" : "Entao valido que o mapa do Google abriu em tela",
       "time" : {
-        "start" : 1637903385163,
-        "stop" : 1637903385163,
+        "start" : 1638508214382,
+        "stop" : 1638508214382,
         "duration" : 0
       },
       "status" : "skipped",
@@ -123,9 +123,9 @@
   "afterStages" : [ {
     "name" : "After hook (google_map_steps.rb:8)",
     "time" : {
-      "start" : 1637903385163,
-      "stop" : 1637903385411,
-      "duration" : 248
+      "start" : 1638508214382,
+      "stop" : 1638508214606,
+      "duration" : 224
     },
     "status" : "failed",
     "steps" : [ ],
@@ -138,8 +138,8 @@
   }, {
     "name" : "After hook (cucumber.rb:10)",
     "time" : {
-      "start" : 1637903385411,
-      "stop" : 1637903385411,
+      "start" : 1638508214606,
+      "stop" : 1638508214606,
       "duration" : 0
     },
     "status" : "passed",
@@ -183,7 +183,7 @@
     "value" : "52720"
   }, {
     "name" : "host",
-    "value" : "fv-az74-376"
+    "value" : "fv-az83-216"
   }, {
     "name" : "language",
     "value" : "ruby"
@@ -205,6 +205,6 @@
     } ],
     "tags" : [ "TC-01", "FPF" ]
   },
-  "source" : "9eb55978a66b7807.json",
+  "source" : "f3af067f239f1703.json",
   "parameterValues" : [ ]
 }
