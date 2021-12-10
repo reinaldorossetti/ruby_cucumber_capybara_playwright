@@ -4,13 +4,13 @@
     "name" : "specs",
     "children" : [ {
       "name" : "Validar que o mapa do Google abriu em tela",
-      "uid" : "f3af067f239f1703",
+      "uid" : "dac5b65301f9ad36",
       "parentUid" : "79eba0ca6c2b7ed5b92b458db298125f",
       "status" : "broken",
       "time" : {
-        "start" : 1638508213735,
-        "stop" : 1638508214606,
-        "duration" : 871
+        "start" : 1639113064611,
+        "stop" : 1639113065676,
+        "duration" : 1065
       },
       "flaky" : false,
       "newFailed" : false,
