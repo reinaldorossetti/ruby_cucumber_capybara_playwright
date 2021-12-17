@@ -3,22 +3,26 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4578\n[pid=4578][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4578\n[pid=4578][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+      "name" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4501\n[pid=4501][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4501\n[pid=4501][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
       "children" : [ {
         "name" : "Validar que o mapa do Google abriu em tela",
-        "uid" : "dac5b65301f9ad36",
-        "parentUid" : "400fd2f768a938f7bc32de89b2bf4cce",
+        "uid" : "ece0ed3c25471fbb",
+        "parentUid" : "d71af0746c2cc3b13d92220873e336ff",
         "status" : "broken",
         "time" : {
-          "start" : 1639113064611,
-          "stop" : 1639113065676,
-          "duration" : 1065
+          "start" : 1639717827228,
+          "stop" : 1639717828215,
+          "duration" : 987
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "400fd2f768a938f7bc32de89b2bf4cce"
+      "uid" : "d71af0746c2cc3b13d92220873e336ff"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
