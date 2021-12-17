@@ -2,20 +2,19 @@
   "11856d1821454979a45f5e1eabffa771" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ce461463508c6579",
-      "status" : "broken",
-      "statusDetails" : "Unable to find visible css \"#buttonFiltrar\"",
+      "uid" : "edca10d994bc640d",
+      "status" : "passed",
       "time" : {
-        "start" : 1639113035683,
-        "stop" : 1639113076294,
-        "duration" : 40611
+        "start" : 1639717812254,
+        "stop" : 1639717836086,
+        "duration" : 23832
       }
     } ]
   }

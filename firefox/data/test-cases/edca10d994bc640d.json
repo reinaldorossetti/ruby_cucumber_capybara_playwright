@@ -1,0 +1,206 @@
+{
+  "uid" : "edca10d994bc640d",
+  "name" : "Validar que o mapa do Google abriu em tela",
+  "fullName" : "Validar que o mapa do Google abriu em tela",
+  "historyId" : "11856d1821454979a45f5e1eabffa771",
+  "time" : {
+    "start" : 1639717812254,
+    "stop" : 1639717836086,
+    "duration" : 23832
+  },
+  "description" : "Location - features/specs/sessaopravoce.feature:8",
+  "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Before hook (cucumber.rb:14)",
+    "time" : {
+      "start" : 1639717812266,
+      "stop" : 1639717812266,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before hook (cucumber.rb:22)",
+    "time" : {
+      "start" : 1639717812266,
+      "stop" : 1639717812266,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before hook (google_map_steps.rb:4)",
+    "time" : {
+      "start" : 1639717812266,
+      "stop" : 1639717820663,
+      "duration" : 8397
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Location - features/specs/sessaopravoce.feature:8",
+    "descriptionHtml" : "Location - features/specs/sessaopravoce.feature:8",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado dado que esteja na tela desejada",
+      "time" : {
+        "start" : 1639717820664,
+        "stop" : 1639717826678,
+        "duration" : 6014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando seleciono Onde usar meu cartão VR",
+      "time" : {
+        "start" : 1639717826678,
+        "stop" : 1639717835932,
+        "duration" : 9254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Entao valido que o mapa do Google abriu em tela",
+      "time" : {
+        "start" : 1639717835932,
+        "stop" : 1639717835933,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "After hook (google_map_steps.rb:8)",
+    "time" : {
+      "start" : 1639717835933,
+      "stop" : 1639717836046,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "After hook (cucumber.rb:10)",
+    "time" : {
+      "start" : 1639717836046,
+      "stop" : 1639717836086,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "cucumber"
+  }, {
+    "name" : "package",
+    "value" : "specs"
+  }, {
+    "name" : "testClass",
+    "value" : "sessaopravoce"
+  }, {
+    "name" : "suite",
+    "value" : "Pessoa Física funcionalidades"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "specs"
+  }, {
+    "name" : "feature",
+    "value" : "Pessoa Física funcionalidades"
+  }, {
+    "name" : "tag",
+    "value" : "FPF"
+  }, {
+    "name" : "tag",
+    "value" : "TC-01"
+  }, {
+    "name" : "thread",
+    "value" : "52720"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-685"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC-01", "FPF" ]
+  },
+  "source" : "edca10d994bc640d.json",
+  "parameterValues" : [ ]
+}
