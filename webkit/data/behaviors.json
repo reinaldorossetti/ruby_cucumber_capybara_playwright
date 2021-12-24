@@ -6,13 +6,13 @@
       "name" : "Pessoa Física funcionalidades",
       "children" : [ {
         "name" : "Validar que o mapa do Google abriu em tela",
-        "uid" : "ece0ed3c25471fbb",
+        "uid" : "30c398d08c1960f1",
         "parentUid" : "1455feb21ba906f388345046af0dd533",
         "status" : "broken",
         "time" : {
-          "start" : 1639717827228,
-          "stop" : 1639717828215,
-          "duration" : 987
+          "start" : 1640322723929,
+          "stop" : 1640322724811,
+          "duration" : 882
         },
         "flaky" : false,
         "newFailed" : false,
