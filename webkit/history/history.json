@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9973d1b29c63bc82",
+      "uid" : "dc77603a0dafe556",
       "status" : "broken",
-      "statusDetails" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4348\n[pid=4348][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4348\n[pid=4348][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+      "statusDetails" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4329\n[pid=4329][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4329\n[pid=4329][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
       "time" : {
-        "start" : 1641532354426,
-        "stop" : 1641532355485,
-        "duration" : 1059
+        "start" : 1642137186674,
+        "stop" : 1642137187581,
+        "duration" : 907
       }
     } ]
   }
