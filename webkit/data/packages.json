@@ -1,17 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "specs",
     "children" : [ {
       "name" : "Validar que o mapa do Google abriu em tela",
-      "uid" : "dc77603a0dafe556",
+      "uid" : "e6dffc153f48c37c",
       "parentUid" : "79eba0ca6c2b7ed5b92b458db298125f",
       "status" : "broken",
       "time" : {
-        "start" : 1642137186674,
-        "stop" : 1642137187581,
-        "duration" : 907
+        "start" : 1642741766910,
+        "stop" : 1642741767725,
+        "duration" : 815
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,5 +21,6 @@
       "parameters" : [ ]
     } ],
     "uid" : "79eba0ca6c2b7ed5b92b458db298125f"
-  } ]
+  } ],
+  "name" : "packages"
 }

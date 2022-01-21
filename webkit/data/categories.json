@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4329\n[pid=4329][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4329\n[pid=4329][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
+      "name" : "Error: Browser closed.\n==================== Browser output: ====================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4487\n[pid=4487][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n=========================== logs ===========================\n<launching> /home/runner/.cache/ms-playwright/webkit-1564/pw_run.sh --inspector-pipe --headless --no-startup-window --window-size=1280,1024 --no-sandbox\n<launched> pid=4487\n[pid=4487][err] Cannot parse arguments: Unknown option --window-size=1280,1024\n============================================================",
       "children" : [ {
         "name" : "Validar que o mapa do Google abriu em tela",
-        "uid" : "dc77603a0dafe556",
-        "parentUid" : "ff2c078fd9c0316a46ddedda224ef6e5",
+        "uid" : "e6dffc153f48c37c",
+        "parentUid" : "aea8f5301e10ae4ca4ef2130248f9466",
         "status" : "broken",
         "time" : {
-          "start" : 1642137186674,
-          "stop" : 1642137187581,
-          "duration" : 907
+          "start" : 1642741766910,
+          "stop" : 1642741767725,
+          "duration" : 815
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,8 +22,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ff2c078fd9c0316a46ddedda224ef6e5"
+      "uid" : "aea8f5301e10ae4ca4ef2130248f9466"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }
